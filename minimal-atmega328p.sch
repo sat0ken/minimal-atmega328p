@@ -189,10 +189,6 @@ DTR
 Wire Wire Line
 	7950 4250 7750 4250
 Wire Wire Line
-	7450 4250 7450 3750
-Wire Wire Line
-	7450 3750 6750 3750
-Wire Wire Line
 	7750 4250 7750 3950
 Connection ~ 7750 4250
 Wire Wire Line
@@ -209,7 +205,7 @@ F 3 "" H 7750 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7750 3650 7750 3450
+	7750 3650 7750 3550
 $Comp
 L power:+5V #PWR01
 U 1 1 5EA06BF9
@@ -478,6 +474,7 @@ $EndComp
 Wire Wire Line
 	6150 4950 6150 5250
 $Comp
+<<<<<<< HEAD
 L Switch:SW_Push SW1
 U 1 1 5F7690D9
 P 7750 4700
@@ -503,4 +500,32 @@ F 3 "" H 7750 5200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7750 4900 7750 5200
+=======
+L pspice:DIODE D1
+U 1 1 5EA03DE0
+P 7450 3800
+F 0 "D1" V 7404 3928 50  0000 L CNN
+F 1 "DIODE" V 7495 3928 50  0000 L CNN
+F 2 "Diode_THT:D_A-405_P2.54mm_Vertical_AnodeUp" H 7450 3800 50  0001 C CNN
+F 3 "~" H 7450 3800 50  0001 C CNN
+	1    7450 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 4250 7450 4000
+Wire Wire Line
+	7450 3600 7450 3550
+Wire Wire Line
+	7450 3550 7750 3550
+Connection ~ 7750 3550
+Wire Wire Line
+	7750 3550 7750 3450
+Wire Wire Line
+	7450 4250 7200 4250
+Wire Wire Line
+	7200 4250 7200 3750
+Wire Wire Line
+	7200 3750 6750 3750
+Connection ~ 7450 4250
+>>>>>>> 94e5c46e0dfaaac7e610f4605818ed61c1ff31fd
 $EndSCHEMATC

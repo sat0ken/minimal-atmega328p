@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 update=2020/10/02 0:16:46
+=======
+update=2020/04/22 13:53:39
+>>>>>>> 94e5c46e0dfaaac7e610f4605818ed61c1ff31fd
 version=1
 last_client=kicad
 [general]
@@ -25,7 +29,11 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
+<<<<<<< HEAD
 LastNetListRead=
+=======
+LastNetListRead=minimal-atmega328p.net
+>>>>>>> 94e5c46e0dfaaac7e610f4605818ed61c1ff31fd
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -39,10 +47,13 @@ MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.25
+<<<<<<< HEAD
 TrackWidth2=0.4
 TrackWidth3=0.6
 TrackWidth4=0.8
 TrackWidth5=1
+=======
+>>>>>>> 94e5c46e0dfaaac7e610f4605818ed61c1ff31fd
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2
@@ -71,7 +82,11 @@ OthersTextUpright=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
+<<<<<<< HEAD
 SolderPasteRatio=-0
+=======
+SolderPasteRatio=0
+>>>>>>> 94e5c46e0dfaaac7e610f4605818ed61c1ff31fd
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -237,7 +252,11 @@ Enabled=1
 [pcbnew/Layer.F.Fab]
 Enabled=1
 [pcbnew/Layer.Rescue]
+<<<<<<< HEAD
 Enabled=0
+=======
+Enabled=1
+>>>>>>> 94e5c46e0dfaaac7e610f4605818ed61c1ff31fd
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
