@@ -156,6 +156,7 @@
     (add_net "Net-(C1-Pad2)")
     (add_net "Net-(C2-Pad1)")
     (add_net "Net-(C3-Pad1)")
+    (add_net "Net-(U1-Pad21)")
   )
 
   (module Crystal:Crystal_HC49-4H_Vertical (layer B.Cu) (tedit 5A1AD3B7) (tstamp 5F764526)
